@@ -1,6 +1,7 @@
 package main;
 
 import dancer.Dancer;
+//import fool.Fool;
 import hero.Hero;
 import matango.Matango;
 
@@ -17,5 +18,8 @@ public class Main {
 
 		h.attack(m);
 		d.attack(m);
+
+//		Fool f = new Fool();
+//		f.run();
 	}
 }
