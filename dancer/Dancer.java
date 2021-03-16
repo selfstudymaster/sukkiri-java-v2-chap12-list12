@@ -11,7 +11,7 @@ public class Dancer extends Character {
 		System.out.println(this.name + "は情熱的に踊った１");
 	}
 	// list12-09 attack();をオーバーライドし忘れるとコンパイルエラーになる
-	// list12-10
+	// list12-10 オーバーライドしないとエラーになる上に、抽象クラスはこのままだとインスタンスを生成(new)できないので、オーバーライドすることになる
 	public void attack(Matango m) {
 		System.out.println(this.name + "の攻撃！");
 		System.out.println(m.name + "に3ポイントのダメージをあたえた！");
